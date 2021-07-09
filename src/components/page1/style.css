@@ -1,0 +1,358 @@
+* {
+  font-family: system-UI, "Poppins", sans-serif;
+}
+
+body,
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: white;
+}
+/* Heading Starts Here */
+
+.displayimage {
+  margin: 0;
+  border: 1px solid black;
+  background-image: url("./background\ image.png"),
+    linear-gradient(to top, rgba(47, 0, 19, 1), rgba(47, 0, 19, 0));
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.account {
+  /* width: 35%; */
+  color: white;
+  float: right;
+  margin: 30px 4%;
+}
+
+#cAcc {
+  border: 1px solid white;
+  border-radius: 4px;
+  /* margin-left: 15px; */
+  padding: 10px;
+  min-width: 139px;
+  color: white;
+  text-align: center;
+}
+
+.fas {
+  font-size: 24px;
+}
+
+.fa-shopping-cart {
+  font-size: 193%;
+  color: #efeeee;
+  display: inline-block;
+  /* border: 2px solid white; */
+}
+
+#cartItemCount {
+  border: 2px solid white;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 100%;
+  margin: -27px 20px 0px -7px;
+  display: inline;
+  width: fit-content;
+  padding: 2px 6px;
+}
+
+.profilPhoto {
+  border: 2px solid white;
+  display: block;
+  border-radius: 40px;
+  margin: 4% auto;
+  width: 37px;
+  height: 40px;
+}
+
+.userOptions {
+  /* border: 1px solid white; */
+  /* position: relative; */
+  cursor: pointer;
+}
+.userDD {
+  border: 2px solid white;
+  display: none;
+  width: fit-content;
+  position: absolute;
+  margin-top: 17px;
+  margin-left: -35px;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+
+#optSymbol {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#optSymbol:hover .userDD {
+  display: inline-block;
+  box-shadow: 0px 8px 16px 0px rgba(202, 143, 143, 0.2);
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.userDD a:hover {
+  background-color: rgb(223, 217, 217);
+}
+
+.userDD a {
+  display: block;
+  padding: 8px 8px;
+  color: black;
+  border: 0.8px solid white;
+}
+
+.upper {
+  text-align: center;
+  margin: 50px auto;
+  /* width: 50%; */
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#logo {
+  text-align: center;
+  font-weight: bolder;
+  color: #eb2a2a;
+  background: white;
+  font-size: 75px;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 50px auto;
+
+  padding: 0px 30px 10px 27px;
+}
+
+#discription {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.selection,
+.QuickSearches p,
+.Cards p {
+  /* margin-bottom: 30px; */
+  color: #adb3c1;
+}
+
+.directSearch {
+  padding: 10px 0;
+  width: 290px;
+  display: block;
+}
+
+#inputDiv {
+  border: 0.5px solid white;
+  display: inline-block;
+}
+.suggestionList {
+  border: none;
+  max-height: 300px;
+  overflow: scroll;
+  width: 254px;
+  background-color: rgba(174, 115, 36, 0.5);
+  color: black;
+  list-style-type: none;
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.suggestionList::-webkit-scrollbar {
+  display: none;
+}
+
+.suggestions {
+  /* border: 2px solid black; */
+  border-bottom: 1px solid #6c6c6c;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  margin-left: -39px;
+  cursor: pointer;
+}
+
+.suggestions hr {
+  width: 120px;
+}
+
+.locationSelection {
+  width: 200px;
+  padding: 10px 5px;
+  margin-right: 10px;
+}
+
+#restaurants {
+  width: 300px;
+  padding: 10px 5px;
+}
+
+/* header Ends Here */
+/* Bottom Section Starts Here */
+
+.QuickSearches {
+  /* border: 1px solid black; */
+  width: 75%;
+  margin: 40px auto 80px;
+  /* padding-left: 80px; */
+}
+
+.Cards img {
+  float: left;
+  width: 150px;
+  height: 160px;
+  /* margin: 5px; */
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.Cards {
+  margin: none;
+  padding-right: 10px;
+  /* border: 1px solid black; */
+  min-width: 320px;
+  /* height: 120px; */
+  display: inline-block;
+  margin: 0px 35px 25px 0px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+.Cards p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.Cards h5 {
+  font-size: 15px;
+  margin: none;
+}
+
+.Cards:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.loginWithCredentials,
+.googleLogin {
+  margin: 15px auto;
+  padding: 15px;
+  width: 390px;
+  border-radius: 3px;
+}
+.googleLogin span {
+  margin: auto;
+  margin-left: 0px;
+}
+
+.googleLogin div {
+  margin-left: 90px;
+}
+
+.formOutline {
+  /* border: 2px solid black; */
+  margin: 20px auto 30px;
+  width: fit-content;
+}
+
+.lable,
+.firstName,
+.lastName,
+.mobile,
+.email,
+.password {
+  margin: 2px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.loginSubmitBtn {
+  /* display: inline-block; */
+  margin: 5px auto;
+  width: fit-content;
+  /* border: 2px solid white; */
+}
+
+.submitBtn {
+  background-color: rgba(11, 76, 180, 0.918);
+  color: white;
+  padding: 5px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 2px solid white;
+}
+
+@media (max-width: 800px) {
+  .displayimage {
+    height: 480px;
+  }
+
+  #logo {
+    margin: 80px auto 30px;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .directSearch,
+  .locationSelection {
+    width: 60%;
+    margin: 15px auto;
+    /* display: block; */
+  }
+
+  #inputDiv {
+    width: 100%;
+    display: block;
+    border: none;
+  }
+
+  .suggestionList {
+    width: 54.5%;
+    margin: -28px auto;
+    float: none;
+    background-color: rgba(95, 76, 52, 1);
+    z-index: 3;
+  }
+
+  .suggestions {
+    padding: 10px 0;
+  }
+
+  .QuickSearches {
+    /* margin: auto; */
+    width: 57%;
+  }
+
+  .Cards {
+    width: 80%;
+    margin: 2% auto;
+  }
+}

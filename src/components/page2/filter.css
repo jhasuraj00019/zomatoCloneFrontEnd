@@ -1,0 +1,394 @@
+body {
+  /* font-family: "Poppins", sans-serif; */
+  margin: 0;
+  background-color: #fbfbfb;
+}
+a {
+  cursor: pointer;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  padding: 5px 15%;
+  background-color: #ce0505;
+  /* width: 100%; */
+}
+
+.header::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.logo {
+  /* font-size: 10px; */
+  margin: 20px;
+  padding: 0px 20px;
+  font-weight: bolder;
+  float: left;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  background: white;
+  cursor: pointer;
+}
+.accountContainerHeader {
+  /* border: 2px solid white; */
+  float: right;
+  /* margin: 13px auto; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-width: 282px;
+}
+.account2 {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0.1% 2%;
+}
+
+#userName {
+  font-size: 81%;
+}
+#login {
+  margin: 10px 5%;
+  /* border: 2px solid white; */
+}
+
+/* Head Ending */
+
+.heading {
+  /* border: 1px solid black; */
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.loginSiteBox {
+  height: 220px;
+  width: 380px;
+  border-bottom: 2px solid rgb(139, 139, 139);
+}
+
+.bcontainer {
+  padding: 0px 30px 0px 10px;
+  /* border: 1px solid black; */
+  width: 900px;
+  margin: 0px 0px 0px 10%;
+}
+
+.bcontainer::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#filterHeading {
+  display: none;
+}
+
+.sites {
+  padding: 10px 5px;
+  margin-top: 10px;
+}
+
+.side {
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  width: 20%;
+  padding: 20px;
+  float: left;
+  line-height: 20px;
+  font-size: 18px;
+  box-shadow: 3px 3px 5px #ccc;
+}
+
+.dropSymbol {
+  display: inline-block;
+}
+
+h5,
+h6 {
+  line-height: 10px;
+}
+label,
+select,
+option,
+address {
+  color: #888;
+  font-size: 15px;
+  width: 100%;
+}
+
+.foodplaces {
+  /* border: 1px solid black; */
+  width: 70%;
+  float: right;
+}
+
+.place {
+  padding: 10px;
+  /* border: 1px solid black; */
+  border-radius: 4px;
+  margin: 0px 30px 30px;
+  box-shadow: 3px 3px 5px #ccc;
+  background-color: white;
+}
+
+.place:hover {
+  transform: scale(1.1, 1.1);
+  transition-timing-function: ease-in-out;
+  box-shadow: 4px 4px 6px #ccc;
+}
+
+.restaurants {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.restaurants p {
+  line-height: 0.1;
+}
+
+.restaurantimg img {
+  border-radius: 10px;
+  margin: 10px;
+  margin-right: 25px;
+  border-radius: 20px;
+  float: left;
+}
+
+table {
+  color: #888;
+  font-size: 14px;
+  text-align: left;
+}
+
+td {
+  padding-left: 20px;
+}
+
+.pagination {
+  /* border: 1px solid black; */
+  width: 40%;
+  margin: 32px 0px 20px 170px;
+  /* padding: 5px; */
+  float: left;
+  overflow: auto;
+}
+
+.pagination a {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #8c96ab;
+  float: left;
+  background-color: white;
+  padding: 0px 8px;
+  border: 1px solid #8c96ab;
+  border-radius: 3px;
+  margin: 4px;
+  text-decoration: none;
+}
+
+/* .pagination .arrows{
+    margin: 5px 12px;
+  } */
+
+.noRecord {
+  font-size: xx-large;
+  text-align: center;
+  color: red;
+  /* border: 3px solid black; */
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.pagination a:hover {
+  color: white;
+  background: #8c96ab;
+}
+
+.loginWithCredentials,
+.googleLogin {
+  /* margin: 15px auto; */
+  /* padding: 15px; */
+  width: 387px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #0101016b;
+  box-shadow: none;
+  background-color: #fff;
+}
+
+.googleLoginBox {
+  /* border-radius: 5px; */
+  border: 1px solid #0101016b;
+}
+.googleLogin span {
+  margin: auto;
+  margin-left: 0px;
+}
+
+.googleLogin div {
+  margin-left: 90px;
+}
+
+#signUpOpt {
+  /* color: #F1818E; */
+  color: rgb(180, 28, 28);
+  cursor: pointer;
+}
+
+/* #imgUpload::after {
+  display: table;
+  clear: both;
+  content: "";
+} */
+
+.CreatAcc {
+  /* color: white; */
+  text-align: center;
+}
+
+#imgUpload {
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto 10px;
+}
+
+.profilePic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  display: block;
+}
+#uploadLable {
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 2px solid white;
+  margin: 5px auto;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+@media (max-width: 800px) {
+  .heading h2 {
+    text-align: center;
+  }
+  .account {
+    padding: 2%;
+    font-weight: bolder;
+  }
+
+  .header {
+    /* width: 85%; */
+    /* min-width: none; */
+    margin: auto;
+    min-width: 340px;
+  }
+
+  .filter::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .filter {
+    /* float: left; */
+    /* height: 40px; */
+    margin: 1% auto;
+    width: 68%;
+    overflow: hidden;
+    border: 2px solid #c3baba;
+    border-radius: 3px;
+    max-width: 500px;
+    min-width: 400px;
+  }
+
+  #filterHeading {
+    display: block;
+    /* width: 80%; */
+    margin: 0 auto;
+  }
+
+  #filterHeading h3 {
+    display: inline-block;
+    margin: 2%;
+  }
+
+  #dropdownSymbol {
+    float: right;
+  }
+  .filter:hover .side {
+    display: block;
+
+    /* height: auto; */
+  }
+  .filter:hover {
+    border: transparent;
+  }
+
+  .filter:hover #filterHeading {
+    margin: 0 auto 6%;
+    border: 2px solid #888;
+    width: 86%;
+  }
+
+  .bcontainer {
+    width: 98%;
+    margin: auto;
+    padding: 0;
+  }
+
+  .foodplaces {
+    min-width: 440px;
+    max-width: 559px;
+    margin: 75px auto;
+    float: none;
+  }
+  .side {
+    width: 86%;
+    padding: 20px 5%;
+    float: none;
+    /* height: 40px; */
+    margin: -10px auto 10px;
+    display: none;
+    max-width: 251px;
+    box-shadow: 10px 10px 22px #ccc;
+  }
+
+  .dropSymbol {
+    float: right;
+  }
+
+  .sites {
+    width: 80%;
+  }
+
+  .place {
+    padding: 1%;
+    font-size: 14px;
+    margin: 0 auto 20px;
+    max-width: 559px;
+  }
+
+  .pagination {
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin: 24% auto;
+    float: none;
+  }
+}
