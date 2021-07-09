@@ -84,7 +84,7 @@ class details extends React.Component {
 
     axios({
       method: "GET",
-      url: `http://localhost:2022/restaurantById/${restId}`,
+      url: `https://zomato-clone-backend2.herokuapp.com/restaurantById/${restId}`,
       headers: { "Content-Type": "application/json" },
     })
       .then((response) =>
@@ -153,7 +153,7 @@ class details extends React.Component {
   };
 
   getData = (data) => {
-    return fetch(`http://localhost:2022/payment`, {
+    return fetch(`https://zomato-clone-backend2.herokuapp.com/payment`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -190,7 +190,7 @@ class details extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/updateOrder",
+      url: "https://zomato-clone-backend2.herokuapp.com/updateOrder",
       headers: { "Content-Type": "application/json" },
       data: toUpdate,
     });

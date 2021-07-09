@@ -36,7 +36,7 @@ class Places extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/filter",
+      url: "https://zomato-clone-backend2.herokuapp.com/filter",
       headers: { "Content-Type": "application/json" },
       data: obj,
     })
@@ -64,7 +64,7 @@ class Places extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/filter",
+      url: "https://zomato-clone-backend2.herokuapp.com/filter",
       headers: { "Content-type": "application/json" },
       data: obj,
     })
@@ -101,7 +101,7 @@ class Places extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/filter",
+      url: "https://zomato-clone-backend2.herokuapp.com/filter",
       headers: { "Content-Type": "application/json" },
       data: obj,
     })
@@ -128,7 +128,7 @@ class Places extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/filter",
+      url: "https://zomato-clone-backend2.herokuapp.com/filter",
       headers: { "Content-type": "application/json" },
       data: obj,
     })
@@ -156,7 +156,7 @@ class Places extends React.Component {
 
     axios({
       method: "POST",
-      url: "http://localhost:2022/filter",
+      url: "https://zomato-clone-backend2.herokuapp.com/filter",
       headers: { "Content-type": "application/json" },
       data: obj,
     })
